@@ -2198,6 +2198,10 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^2.5.0:
+  version "2.5.0"
+  resolved "https://repo.cloud.accedo.tv/artifactory/api/npm/public-npm-repos/hoist-non-react-statics/-/hoist-non-react-statics-2.5.0.tgz#d2ca2dfc19c5a91c5a6615ce8e564ef0347e2a40"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://repo.cloud.accedo.tv/artifactory/api/npm/public-npm-repos/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -3008,6 +3012,13 @@ mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0:
   dependencies:
     minimist "0.0.8"
 
+mobx-react@^5.1.2:
+  version "5.1.2"
+  resolved "https://repo.cloud.accedo.tv/artifactory/api/npm/public-npm-repos/mobx-react/-/mobx-react-5.1.2.tgz#ec5c2d29a1df823dbd1b37e214fa36a0907054e2"
+  dependencies:
+    hoist-non-react-statics "^2.5.0"
+    react-lifecycles-compat "^3.0.2"
+
 mobx@^4.2.0:
   version "4.2.0"
   resolved "https://repo.cloud.accedo.tv/artifactory/api/npm/public-npm-repos/mobx/-/mobx-4.2.0.tgz#ee0b0a4f3da2f4776225046ab208ac329a4841d4"
@@ -3613,6 +3624,10 @@ react-dom@^16.3.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
+
+react-lifecycles-compat@^3.0.2:
+  version "3.0.2"
+  resolved "https://repo.cloud.accedo.tv/artifactory/api/npm/public-npm-repos/react-lifecycles-compat/-/react-lifecycles-compat-3.0.2.tgz#7279047275bd727a912e25f734c0559527e84eff"
 
 react@^16.3.2:
   version "16.3.2"
